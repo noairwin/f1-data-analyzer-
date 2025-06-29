@@ -128,7 +128,7 @@ main_frame.place(relx=0.5, rely=0.02, anchor='n')  # הרמה של הכפתור�
 
 for label, var, opts in [
     ("year:", year_var, ["2021", "2022", "2023", "2024"]),
-    ("track:", track_var, ["Bahrain", "Hungry", "Qatar", "Monaco", "Silverstone", "Abu Dhabi", "Canada", "Saudi Arabia", "Australia", "Japan", "China", "Miami", "Emilia-Romagna", "Spain", "Austria", "Italy", "Azerbaijan", "Netherlands", "Belgium", "Singapore", "Mexico", "Brazil"]),
+    ("track:", track_var, ["Bahrain", "Hungary", "Qatar", "Monaco", "Silverstone", "Abu Dhabi", "Canada", "Saudi Arabia", "Australia", "Japan", "China", "Miami", "Emilia-Romagna", "Spain", "Austria", "Italy", "Azerbaijan", "Netherlands", "Belgium", "Singapore", "Mexico", "Brazil"]),
     ("session:", session_var, ["FP1", "FP2", "FP3", "Q", "R", "S"]),
     ("driver:", driver_var, ["VER", "LEC", "NOR", "HAM", "SAI", "PIA", "RUS", "ALB", "OCO", "GAS", "ALO", "TSU", "RIC", "HUL", "STR", "MAG", "PER", "ZHO", "SAR", "LAW", "DEV", "BOT", "SCH", "VET", "LAT", "GIO", "RAI", "MAZ"]),
     ("graph type:", graph_type_var, ["Speed", "Throttle", "Brake", "RPM"]),

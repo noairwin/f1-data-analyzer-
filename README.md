@@ -14,17 +14,6 @@ Built with FastF1, Matplotlib, and Tkinter – this tool lets you select year, t
 - Clean dark mode styling
 - Background image (`bgF1.png`) for immersive look
 - Tkinter-based GUI (not CLI!)
-
----
-
-## 🛠 Tech Stack
-
-- Language: Python 3.x
-- Libraries: FastF1, Matplotlib, Pillow, Tkinter
-- Graphics: Matplotlib (with FastF1 theme)
-- GUI: Tkinter
-- Image support: Pillow (for background)
-
 ---
 
 ## ▶️ How to Run
@@ -41,8 +30,24 @@ python main.py
 ```
 
 The window will open, and you’ll be able to explore live race data from recent seasons.
+---
 
+## 🛠 Tech Stack
 
+- Language: Python 3.x
+- Libraries: FastF1, Matplotlib, Pillow, Tkinter
+- Graphics: Matplotlib (with FastF1 theme)
+- GUI: Tkinter
+- Image support: Pillow (for background)
+
+---
+
+## 📸 Screenshots
+<img width="1822" alt="Screenshot 2025-06-30 at 16 53 57" src="https://github.com/user-attachments/assets/6f2f99e5-cc9e-4b8d-99ed-91fa6bacf974" />
+
+<img width="1822" alt="Screenshot 2025-06-30 at 16 56 48" src="https://github.com/user-attachments/assets/066f8e58-3d2c-44d9-a58d-63fb28ab7c94" />
+
+---
 ## 📁 File Structure
 
 - main.py - The main Python app with all logic and UI
@@ -50,11 +55,15 @@ The window will open, and you’ll be able to explore live race data from recent
 - README.md - You're reading it!
 - requirements.txt - Required Python libraries
 
-## ✍️ Author
-
-Created by **noairwin**  
+---
 
 ## 🏎️ About Telemetry
 
 Telemetry is real-time performance data collected from the car – speed, braking, RPM and more.  
 This tool visualizes that data for any driver and session, making it easy to analyze what happened in every lap.
+---
+
+
+## ✍️ Author
+
+Created by **noairwin**  

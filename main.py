@@ -37,12 +37,12 @@ root.configure(bg='#121212')
 
 # background image
 bg_image = Image.open("bgF1.png")
-bg_image = bg_image.resize((1710, 1190))  
+bg_image = bg_image.resize((1710, 1190))
 bg_photo = ImageTk.PhotoImage(bg_image)
 bg_label = tk.Label(root, image=bg_photo)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-# vars
+# vars and put in their defults
 year_var = tk.StringVar(value="2024")
 track_var = tk.StringVar(value="Monaco")
 session_var = tk.StringVar(value="R")
@@ -61,7 +61,17 @@ def clear_menu(master, variable, options):
     return menu
 
 def clear_button(master, text, command):
-    return tk.Button(master, text=text, command=command, bg='white', fg='black', font=("Arial", 10), relief='raised')
+    return tk.Button(
+        master, text=text, command=command,
+        bg=root["bg"], fg='black',
+        font=("Arial", 10),
+        relief='flat',
+        activebackground='#1a1a1a',
+        activeforeground='white',
+        highlightthickness=0,
+        borderwidth=0
+    )
+
 
 # draw a graph func
 def draw_graph():
